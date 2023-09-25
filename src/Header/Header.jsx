@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="h-[70vh] bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col justify-center mt-4">
-      <h1 className="text-4xl text-center ">
+    <div className="h-[60vh] bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col justify-center mt-4">
+      <h1 className="text-3xl text-center ">
         I Grow By Helping People In Need
       </h1>
       
