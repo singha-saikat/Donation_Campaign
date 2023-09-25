@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationCard from "../../Components/Donation card/DonationCard";
-// import CardExplore from "../../Components/Card explonation/CardExplore";
+
 
 const Donation = () => {
   const [donate, setDonate] = useState([]);
@@ -17,6 +17,7 @@ const Donation = () => {
     }
   }, []);
   console.log(donate);
+  console.log(donate.length);
 
   return (
     <div>
@@ -41,6 +42,7 @@ const Donation = () => {
             </span>
         </button> : ''}
       </div>
+      
     </div>
   );
 };
