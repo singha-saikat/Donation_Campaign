@@ -1,134 +1,146 @@
 [
   {
-    "category": "food",
+    "category": "Food",
     "title": "Food for Families",
     "image": "https://i.ibb.co/gt4R2k2/Food.png",
-    "category_background_color": "#FF5733",
+    "category_background_color": "#F4C4BA ",
     "card_background_color": "#FDEEEE",
-    "text_color": "#333333",
+    "text_color": "#DB3714",
     "button_background_color": "#FF5733",
     "description": "Provide nutritious meals for families in need.",
-    "price": "$20 donation"
+    "price": "$20 donation",
+    "Id":"1"
   },
   {
-    "category": "education",
+    "category": "Education",
     "title": "Educational Supplies",
     "image": "https://i.ibb.co/9vWCccQ/Education.png",
-    "category_background_color": "#3498DB",
+    "category_background_color": "#75C4F7",
     "card_background_color": "#E8F8FF",
-    "text_color": "#333333",
+    "text_color": "#0F6DAA ",
     "button_background_color": "#3498DB",
     "description": "Support children's education by donating school supplies.",
-    "price": "$15 donation"
+    "price": "$15 donation",
+    "Id":"2"
   },
   {
-    "category": "clothing",
+    "category": "Clothing",
     "title": "Warm Winter Clothing",
     "image": "https://i.ibb.co/QMnc0yq/Clothing.png",
-    "category_background_color": "#F1C40F",
+    "category_background_color": "#84F795 ",
     "card_background_color": "#FFF9E0",
-    "text_color": "#333333",
+    "text_color": "#239033",
     "button_background_color": "#F1C40F",
     "description": "Help those in need stay warm with winter clothing.",
-    "price": "$25 donation"
+    "price": "$25 donation",
+    "Id":"3"
   },
   {
-    "category": "health",
+    "category": "Health",
     "title": "Medical Supplies",
     "image": "https://i.ibb.co/h1X9my1/Health.png",
-    "category_background_color": "#27AE60",
+    "category_background_color": "#F277EE",
     "card_background_color": "#E0F4E0",
-    "text_color": "#333333",
+    "text_color": "#80107D",
     "button_background_color": "#27AE60",
     "description": "Provide essential medical supplies to healthcare facilities.",
-    "price": "$30 donation"
+    "price": "$30 donation",
+    "Id":"4"
   },
   {
-    "category": "food",
+    "category": "Food",
     "title": "Food for Families",
     "image": "https://i.ibb.co/gt4R2k2/Food.png",
-    "category_background_color": "#FF5733",
+    "category_background_color": "#F4C4BA ",
     "card_background_color": "#FDEEEE",
-    "text_color": "#333333",
+    "text_color": "#DB3714",
     "button_background_color": "#FF5733",
     "description": "Provide nutritious meals for families in need.",
-    "price": "$20 donation"
+    "price": "$20 donation",
+    "Id":"5"
   },
   {
-    "category": "education",
+    "category": "Education",
     "title": "Educational Supplies",
     "image": "https://i.ibb.co/9vWCccQ/Education.png",
-    "category_background_color": "#3498DB",
+    "category_background_color": "#75C4F7",
     "card_background_color": "#E8F8FF",
-    "text_color": "#333333",
+    "text_color": "#0F6DAA ",
     "button_background_color": "#3498DB",
     "description": "Support children's education by donating school supplies.",
-    "price": "$15 donation"
+    "price": "$15 donation",
+    "Id":"6"
   },
   {
-    "category": "clothing",
+    "category": "Clothing",
     "title": "Warm Winter Clothing",
     "image": "https://i.ibb.co/QMnc0yq/Clothing.png",
-    "category_background_color": "#F1C40F",
+    "category_background_color": "#84F795 ",
     "card_background_color": "#FFF9E0",
-    "text_color": "#333333",
+    "text_color": "#239033",
     "button_background_color": "#F1C40F",
     "description": "Help those in need stay warm with winter clothing.",
-    "price": "$25 donation"
+    "price": "$25 donation",
+    "Id":"7"
   },
   {
-    "category": "health",
+    "category": "Health",
     "title": "Medical Supplies",
     "image": "https://i.ibb.co/h1X9my1/Health.png",
-    "category_background_color": "#27AE60",
+    "category_background_color": "#F277EE",
     "card_background_color": "#E0F4E0",
-    "text_color": "#333333",
+    "text_color": "#80107D",
     "button_background_color": "#27AE60",
     "description": "Provide essential medical supplies to healthcare facilities.",
-    "price": "$30 donation"
+    "price": "$30 donation",
+    "Id":"8"
   },
   {
-    "category": "food",
+    "category": "Food",
     "title": "Food for Families",
     "image": "https://i.ibb.co/gt4R2k2/Food.png",
-    "category_background_color": "#FF5733",
+    "category_background_color": "#F4C4BA ",
     "card_background_color": "#FDEEEE",
-    "text_color": "#333333",
+    "text_color": "#DB3714",
     "button_background_color": "#FF5733",
     "description": "Provide nutritious meals for families in need.",
-    "price": "$20 donation"
+    "price": "$20 donation",
+    "Id":"9"
   },
   {
-    "category": "education",
+    "category": "Education",
     "title": "Educational Supplies",
     "image": "https://i.ibb.co/9vWCccQ/Education.png",
-    "category_background_color": "#3498DB",
+    "category_background_color": "#75C4F7",
     "card_background_color": "#E8F8FF",
-    "text_color": "#333333",
+    "text_color": "#0F6DAA ",
     "button_background_color": "#3498DB",
     "description": "Support children's education by donating school supplies.",
-    "price": "$15 donation"
+    "price": "$15 donation",
+    "Id":"10"
   },
   {
-    "category": "clothing",
+    "category": "Clothing",
     "title": "Warm Winter Clothing",
     "image": "https://i.ibb.co/QMnc0yq/Clothing.png",
-    "category_background_color": "#F1C40F",
+    "category_background_color": "#84F795 ",
     "card_background_color": "#FFF9E0",
-    "text_color": "#333333",
+    "text_color": "#239033",
     "button_background_color": "#F1C40F",
     "description": "Help those in need stay warm with winter clothing.",
-    "price": "$25 donation"
+    "price": "$25 donation",
+    "Id":"11"
   },
   {
-    "category": "health",
+    "category": "Health",
     "title": "Medical Supplies",
     "image": "https://i.ibb.co/h1X9my1/Health.png",
-    "category_background_color": "#27AE60",
+    "category_background_color": "#F277EE",
     "card_background_color": "#E0F4E0",
-    "text_color": "#333333",
+    "text_color": "#80107D",
     "button_background_color": "#27AE60",
     "description": "Provide essential medical supplies to healthcare facilities.",
-    "price": "$30 donation"
+    "price": "$30 donation",
+    "Id":"12"
   }
 ]
