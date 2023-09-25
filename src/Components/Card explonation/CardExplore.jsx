@@ -7,7 +7,7 @@ const CardExplore = ({ card }) => {
   const handleDonate = () => {
     toast.success('Your contribution will make a significant difference and positively impact the lives of those in need', {
       position: "top-right",
-      autoClose: 5000,
+      autoClose: 3000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -27,17 +27,19 @@ const CardExplore = ({ card }) => {
         if(!isExist){
             addToDonationPage.push(...DonationItems,card);
             localStorage.setItem('donation',JSON.stringify(addToDonationPage));
-        }else{
-            console.log("error");
+        }
+        else{
+            addToDonationPage.push(...DonationItems,card);
+            localStorage.setItem('donation',JSON.stringify(addToDonationPage));
         }
     }
   };
 
   return (
-    <div className="relative">
+    <div className="relative mt-12">
       <img className="w-full h-[70vh]" src={image} alt="" />
       <div
-        className="absolute bottom-44 left-0 w-full  px-8 py-4"
+        className="absolute bottom-38 left-0 w-full  px-8 py-4"
         style={{ background: `rgba(11, 11, 11, 0.4)`, backdropFilter: `blur(1px)` }}
       >
         <button onClick={handleDonate} className="text-white p-2 border rounded" style={{background:text_color}}>

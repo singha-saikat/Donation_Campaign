@@ -4,7 +4,12 @@ export default {
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '38': '152px',
+        
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
