@@ -7,9 +7,9 @@
     "card_background_color": "#FDEEEE",
     "text_color": "#DB3714",
     "button_background_color": "#FF5733",
-    "description": "Provide nutritious meals for families in need.",
-    "price": "$20 donation",
-    "Id":"1"
+    "description": "Food for Families allows you to make a meaningful impact with a $20 donation. Your contribution helps provide nutritious meals to families facing food insecurity. By ensuring access to essential sustenance, this initiative supports their overall health and well-being, addressing a fundamental need in our communities. Join us in the fight against hunger and make a positive difference in the lives of those in need.",
+    "price": "$20",
+    "Id": "1"
   },
   {
     "category": "Education",
@@ -19,9 +19,9 @@
     "card_background_color": "#E8F8FF",
     "text_color": "#0F6DAA ",
     "button_background_color": "#3498DB",
-    "description": "Support children's education by donating school supplies.",
-    "price": "$15 donation",
-    "Id":"2"
+    "description": "Educational Supplies offers an opportunity to support children's education with a $15 donation. Your generosity helps provide vital school supplies, empowering students to learn effectively. By equipping them with essential tools, this initiative contributes to their academic success and future prospects. Join us in fostering a brighter future for young learners by ensuring they have the resources they need to thrive in their educational journey",
+    "price": "$15",
+    "Id": "2"
   },
   {
     "category": "Clothing",
@@ -31,9 +31,9 @@
     "card_background_color": "#FFF9E0",
     "text_color": "#239033",
     "button_background_color": "#F1C40F",
-    "description": "Help those in need stay warm with winter clothing.",
-    "price": "$25 donation",
-    "Id":"3"
+    "description": "With a $25 donation to Warm Winter Clothing, you can make a significant impact on the lives of vulnerable individuals during the cold winter months. Your contribution provides essential warm clothing, ensuring that those in need can stay comfortable and protected from the harsh weather. Join us in helping people stay warm and safe this winter, providing them with a lifeline against the cold and adversity.",
+    "price": "$25",
+    "Id": "3"
   },
   {
     "category": "Health",
@@ -43,9 +43,9 @@
     "card_background_color": "#E0F4E0",
     "text_color": "#80107D",
     "button_background_color": "#27AE60",
-    "description": "Provide essential medical supplies to healthcare facilities.",
-    "price": "$30 donation",
-    "Id":"4"
+    "description": "Medical Supplies invites you to contribute $30 toward supporting healthcare facilities. Your donation plays a crucial role in providing essential medical supplies, equipping healthcare professionals with the tools they need to deliver better patient care. By ensuring a steady supply of medical resources, this initiative helps enhance the quality of healthcare services and saves lives. Join us in making a meaningful impact on healthcare access and patient well-being through your generous contribution.",
+    "price": "$30",
+    "Id": "4"
   },
   {
     "category": "Food",
@@ -55,9 +55,9 @@
     "card_background_color": "#FDEEEE",
     "text_color": "#DB3714",
     "button_background_color": "#FF5733",
-    "description": "Provide nutritious meals for families in need.",
+    "description": "Food for Families allows you to make a meaningful impact with a $20 donation. Your contribution helps provide nutritious meals to families facing food insecurity. By ensuring access to essential sustenance, this initiative supports their overall health and well-being, addressing a fundamental need in our communities. Join us in the fight against hunger and make a positive difference in the lives of those in need.",
     "price": "$20 donation",
-    "Id":"5"
+    "Id": "1"
   },
   {
     "category": "Education",
@@ -67,9 +67,9 @@
     "card_background_color": "#E8F8FF",
     "text_color": "#0F6DAA ",
     "button_background_color": "#3498DB",
-    "description": "Support children's education by donating school supplies.",
-    "price": "$15 donation",
-    "Id":"6"
+    "description": "Educational Supplies offers an opportunity to support children's education with a $15 donation. Your generosity helps provide vital school supplies, empowering students to learn effectively. By equipping them with essential tools, this initiative contributes to their academic success and future prospects. Join us in fostering a brighter future for young learners by ensuring they have the resources they need to thrive in their educational journey",
+    "price": "$15",
+    "Id": "2"
   },
   {
     "category": "Clothing",
@@ -79,9 +79,9 @@
     "card_background_color": "#FFF9E0",
     "text_color": "#239033",
     "button_background_color": "#F1C40F",
-    "description": "Help those in need stay warm with winter clothing.",
-    "price": "$25 donation",
-    "Id":"7"
+    "description": "With a $25 donation to Warm Winter Clothing, you can make a significant impact on the lives of vulnerable individuals during the cold winter months. Your contribution provides essential warm clothing, ensuring that those in need can stay comfortable and protected from the harsh weather. Join us in helping people stay warm and safe this winter, providing them with a lifeline against the cold and adversity.",
+    "price": "$25",
+    "Id": "3"
   },
   {
     "category": "Health",
@@ -91,9 +91,9 @@
     "card_background_color": "#E0F4E0",
     "text_color": "#80107D",
     "button_background_color": "#27AE60",
-    "description": "Provide essential medical supplies to healthcare facilities.",
-    "price": "$30 donation",
-    "Id":"8"
+    "description": "Medical Supplies invites you to contribute $30 toward supporting healthcare facilities. Your donation plays a crucial role in providing essential medical supplies, equipping healthcare professionals with the tools they need to deliver better patient care. By ensuring a steady supply of medical resources, this initiative helps enhance the quality of healthcare services and saves lives. Join us in making a meaningful impact on healthcare access and patient well-being through your generous contribution.",
+    "price": "$30",
+    "Id": "4"
   },
   {
     "category": "Food",
@@ -103,9 +103,9 @@
     "card_background_color": "#FDEEEE",
     "text_color": "#DB3714",
     "button_background_color": "#FF5733",
-    "description": "Provide nutritious meals for families in need.",
-    "price": "$20 donation",
-    "Id":"9"
+    "description": "Food for Families allows you to make a meaningful impact with a $20 donation. Your contribution helps provide nutritious meals to families facing food insecurity. By ensuring access to essential sustenance, this initiative supports their overall health and well-being, addressing a fundamental need in our communities. Join us in the fight against hunger and make a positive difference in the lives of those in need.",
+    "price": "$20",
+    "Id": "1"
   },
   {
     "category": "Education",
@@ -115,9 +115,9 @@
     "card_background_color": "#E8F8FF",
     "text_color": "#0F6DAA ",
     "button_background_color": "#3498DB",
-    "description": "Support children's education by donating school supplies.",
-    "price": "$15 donation",
-    "Id":"10"
+    "description": "Educational Supplies offers an opportunity to support children's education with a $15 donation. Your generosity helps provide vital school supplies, empowering students to learn effectively. By equipping them with essential tools, this initiative contributes to their academic success and future prospects. Join us in fostering a brighter future for young learners by ensuring they have the resources they need to thrive in their educational journey",
+    "price": "$15",
+    "Id": "2"
   },
   {
     "category": "Clothing",
@@ -127,9 +127,9 @@
     "card_background_color": "#FFF9E0",
     "text_color": "#239033",
     "button_background_color": "#F1C40F",
-    "description": "Help those in need stay warm with winter clothing.",
-    "price": "$25 donation",
-    "Id":"11"
+    "description": "With a $25 donation to Warm Winter Clothing, you can make a significant impact on the lives of vulnerable individuals during the cold winter months. Your contribution provides essential warm clothing, ensuring that those in need can stay comfortable and protected from the harsh weather. Join us in helping people stay warm and safe this winter, providing them with a lifeline against the cold and adversity.",
+    "price": "$25",
+    "Id": "3"
   },
   {
     "category": "Health",
@@ -139,8 +139,8 @@
     "card_background_color": "#E0F4E0",
     "text_color": "#80107D",
     "button_background_color": "#27AE60",
-    "description": "Provide essential medical supplies to healthcare facilities.",
-    "price": "$30 donation",
-    "Id":"12"
+    "description": "Medical Supplies invites you to contribute $30 toward supporting healthcare facilities. Your donation plays a crucial role in providing essential medical supplies, equipping healthcare professionals with the tools they need to deliver better patient care. By ensuring a steady supply of medical resources, this initiative helps enhance the quality of healthcare services and saves lives. Join us in making a meaningful impact on healthcare access and patient well-being through your generous contribution.",
+    "price": "$30",
+    "Id": "4"
   }
 ]
