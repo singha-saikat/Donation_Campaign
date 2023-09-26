@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="h-[60vh] bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col justify-center mt-4">
+    <div className="h-[60vh]  flex flex-col justify-center mt-4 bg-[url('/public/Resources/Rectangle-4281.png')] bg-slate-200 bg-blend-screen">
       <h1 className="text-3xl text-center ">
         I Grow By Helping People In Need
       </h1>

@@ -1,8 +1,20 @@
 import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
+import { useEffect, useState } from "react";
 const Statistics = () => {
+  const [donate, setDonate] = useState([]);
+  useEffect(() => {
+    const DonationItems = JSON.parse(localStorage.getItem("donation"));
+
+    if (DonationItems) {
+      setDonate(DonationItems);
+    } else {
+      console.log("No Data Found");
+    }
+  }, []);
+
     const data = [
         { value: 12, label: 'A' },
-        { value: 4 , label: 'B' },
+        { value: donate.length , label: 'B' },
         
       ];
       
