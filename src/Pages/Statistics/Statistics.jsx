@@ -1,7 +1,9 @@
 import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
 import { useEffect, useState } from "react";
+import { useLoaderData } from 'react-router-dom';
 const Statistics = () => {
   const [donate, setDonate] = useState([]);
+  const element = useLoaderData();
   useEffect(() => {
     const DonationItems = JSON.parse(localStorage.getItem("donation"));
 
@@ -13,7 +15,7 @@ const Statistics = () => {
   }, []);
 
     const data = [
-        { value: 12, label: 'T. D' },
+        { value: element.length, label: 'T. D' },
         { value: donate.length , label: 'M.D' },
         
       ];

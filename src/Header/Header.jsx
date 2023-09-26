@@ -4,7 +4,19 @@ const Header = () => {
  const fetchData = (value) => {
   fetch('/donation.json')
   .then(res => res.json())
-  .then(data => console.log(data))
+  .then(data => {
+    const result = data.filter((item) => {
+      return (
+        value &&
+        item &&
+        item.title && 
+        item.price &&
+        item.category &&
+        item.category.toLowerCase().includes(value)
+      )
+    });
+    console.log(result);
+  })
  }
  const handleChange = (value) =>{
   setInput(value)
@@ -12,6 +24,7 @@ const Header = () => {
  }
   
   return (
+ 
     <div className="h-[60vh]  flex flex-col justify-center mt-4 bg-[url('/public/Resources/Rectangle-4281.png')] bg-slate-200 bg-blend-screen">
       <h1 className="text-3xl text-center ">
         I Grow By Helping People In Need
