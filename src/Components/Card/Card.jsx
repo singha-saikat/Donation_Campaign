@@ -18,9 +18,9 @@ const Card = ({ card }) => {
           className="max-w-sm border-gray-200 rounded-lg shadow dark:bg-green-800 dark:border-gray-700 mt-8"
           style={{ background: card_background_color }}
         >
-          <a href="#">
+          <div>
             <img className="rounded-t-lg w-full mb-4" src={image} alt="" />
-          </a>
+          </div>
           <div className="px-4">
             <span
               className="px-2 py-1 rounded-md m-4"

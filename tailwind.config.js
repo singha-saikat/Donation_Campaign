@@ -5,6 +5,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-image': "url('/public/Resources/Rectangle-4281.png')",
+      },
       spacing: {
         '38': '152px',
         '0.6':'1px',
