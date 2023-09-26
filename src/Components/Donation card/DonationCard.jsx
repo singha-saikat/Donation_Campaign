@@ -26,7 +26,7 @@ const DonationCard = ({ card }) => {
               }}>{category}</span>
             <p className="px-2 mt-1  ml-2" style={{ color: text_color }}>{title}</p>
             <p className="px-2 mt-1  ml-2" style={{ color: text_color }}>{price}</p>
-            <button className="border p-1 ml-2" style={{background:text_color}}>View Details</button>
+            <button className="border p-1 px-2 rounded ml-2" style={{background:text_color}}>View Details</button>
 
         </div>
       </a>
