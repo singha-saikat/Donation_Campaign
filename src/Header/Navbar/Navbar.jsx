@@ -1,6 +1,11 @@
 import { NavLink } from "react-router-dom";
-
+import  { useState } from "react";
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div>
       <div className="hidden md:inline">
@@ -56,88 +61,64 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <div className="md:hidden ">
-        <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 px-2">
-          <div className="max-w-screen-xl flex  items-center justify-between mx-auto p-4">
-            <a href="#" className="flex items-center">
-              <div>
-                <img className="w-32" src="/Resources/Logo.png" alt="" />
-              </div>
-              
-            </a>
+      <div className="md:hidden">
+        <nav className="mt-2  flex justify-between items-center">
+          <div>
+            <img className="w-32" src="/Resources/Logo.png" alt="" />
+          </div>
+          <div>
             <button
-              data-collapse-toggle="navbar-hamburger"
-              type="button"
-              className="inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="navbar-hamburger"
-              aria-expanded="false"
+              onClick={toggleMenu}
+              className="text-gray-500 hover:text-red-500 focus:outline-none"
             >
-              <span className="sr-only">Open main menu</span>
               <svg
-                className="w-5 h-5"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
+                className="w-6 h-6"
                 fill="none"
-                viewBox="0 0 17 14"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  d="M1 1h15M1 7h15M1 13h15"
+                  d="M4 6h16M4 12h16m-7 6h7"
                 />
               </svg>
             </button>
-            <div className="hidden w-full" id="navbar-hamburger">
-              <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-              <li>
-                <NavLink
-                  to="/"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "text-red-500 underline"
-                      : ""
-                  }
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/donation"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "text-red-500 underline "
-                      : ""
-                  }
-                >
-                  Donation
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/statistics"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "text-red-500 underline"
-                      : ""
-                  }
-                >
-                  Statistics
-                </NavLink>
-              </li>
-                
-              </ul>
-            </div>
           </div>
         </nav>
+        {isMenuOpen && (
+        <ul className="md:hidden flex flex-col gap-4 mt-2">
+          <li>
+            <NavLink
+              to="/"
+              activeClassName="text-red-500 underline"
+              className="text-gray-500 hover:text-red-500"
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/donation"
+              activeClassName="text-red-500 underline"
+              className="text-gray-500 hover:text-red-500"
+            >
+              Donation
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/statistics"
+              activeClassName="text-red-500 underline"
+              className="text-gray-500 hover:text-red-500"
+            >
+              Statistics
+            </NavLink>
+            </li>
+          </ul>
+        )}
       </div>
     </div>
   );

@@ -37,21 +37,29 @@ const CardExplore = ({ card }) => {
 
   return (
     <div className="relative mt-12">
-      <img className="w-full h-[70vh] object-cover object-center rounded-b-md" src={image} alt="" />
-      <div
-        className="absolute inset-x-0 bottom-0 h-20 bg-gray-900 opacity-40 rounded-b-md"
-        style={{ background: `rgba(11, 11, 11, 0.4)`, backdropFilter: `blur(1px)` }}
-      >
-        <button onClick={handleDonate} className="text-white p-2 border rounded" style={{background:text_color}}>
-          Donate {price}
-        </button>
-      </div>
-      <div className="mt-8">
-        <h1 className="text-2xl font-bold mb-4">{title}</h1>
-        <p className='mb-8'>{description}</p>
-      </div>
-      <ToastContainer />
+  {/* Image container */}
+  <div className="relative">
+    <img className="w-full object-cover object-center rounded-b-md" src={image} alt="" />
+
+    {/* Fixed container at the bottom */}
+    <div
+      className="absolute bottom-0 left-0 w-full px-8 py-4"
+      style={{ background: `rgba(11, 11, 11, 0.4)`, backdropFilter: `blur(1px)` }}
+    >
+      <button onClick={handleDonate} className="text-white p-2 border rounded" style={{ background: text_color }}>
+        Donate {price}
+      </button>
     </div>
+  </div>
+
+  <div className="mt-8">
+    <h1 className="text-2xl font-bold mb-4">{title}</h1>
+    <p className="mb-8">{description}</p>
+  </div>
+  <ToastContainer />
+</div>
+
+
   );
 };
 
