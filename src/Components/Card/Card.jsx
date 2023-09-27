@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
 const Card = ({ card }) => {
+  
+  
   const {
     Id,
     image,
@@ -42,3 +44,4 @@ const Card = ({ card }) => {
 };
 
 export default Card;
+
